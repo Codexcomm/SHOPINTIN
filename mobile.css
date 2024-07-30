@@ -1,0 +1,188 @@
+@media(max-width:450px){
+
+    header {
+
+            height: fit-content;
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: white;
+            gap: 20px;
+            position: relative;
+        }
+
+        header nav {
+            margin-bottom: 70px;
+        }
+
+        header>a {
+
+            color: white;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background-color: darkorange;
+            text-align: center;
+        }
+
+        #home {
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 50px 20px;
+            gap:80px;
+        }
+
+        .left {
+            width: 100%;
+            height: fit-content;
+            justify-content: center;
+            align-items: center;
+            gap: 50px;
+        }
+
+        .right {
+            width: 100%;
+            height: fit-content;
+            justify-content: center;
+            align-items: center;
+            gap: 80px;
+            padding: 20px;
+        }
+
+        .right span {
+
+            justify-content: center;
+            align-items: center;
+            gap: 40px;
+
+        }
+
+
+        .right span small {
+            width: 70px;
+            height: 70px;
+            padding: 10px;
+
+        }
+
+
+        #products {
+
+            padding: 50px 25px;
+        }
+
+        #products h1 {
+            font-size: 30px;
+            font-weight: 400;
+
+        }
+
+        #products article div {
+            flex-direction: column;
+            gap: 50px;
+        }
+
+        #products article div small {
+            width: 70%;
+            height: 250px;
+
+        }
+
+        #products article div small img {
+            width: 80%;
+            height: 80%;
+
+        }
+
+
+        #order article {
+          flex-direction: column;
+          padding: 50px 25px;
+        }
+
+        #order article div {
+            width: 100%;
+            justify-content:center;
+            align-items: center;
+            gap:30px;
+
+        }
+
+
+        #order article .left-div a {
+            width: 100%;
+
+        }
+
+
+        #order article .right-div h4 {
+
+            font-size: 30px;
+
+        }
+
+        #order article .right-div p {
+           width: 100%;
+           text-align: center;
+        }
+
+        #order article .right-div button {
+            width: 100%;
+
+        }
+
+        #contact {
+            padding: 50px 25px;
+
+        }
+
+        #contact h1 {
+            font-size: 30px;
+            font-weight: 200;
+        }
+
+        #contact article {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+
+        #contact article .left-div {
+            width: 100%;
+            height: 500px;
+            position: absolute;
+            opacity: 0.3;
+        }
+
+        #contact article .right-div {
+            width: 100%;
+            align-items:center;
+
+        }
+
+        #contact article .right-div p {
+            justify-content: center;
+            align-items:center;
+
+        }
+
+         #contact article .right-div p span{
+            width: 100%;
+            text-align: center;
+            font-weight: 200;
+         }
+
+
+
+
+
+
+}
